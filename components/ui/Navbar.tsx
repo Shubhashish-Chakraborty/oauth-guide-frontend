@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "../buttons/CustomButton";
 import { Github } from "@/icons/Github";
 import { Youtube } from "@/icons/Youtube";
-import { EnterDoor } from "@/icons/EnterRoom";
+import { DesktopScreen } from "@/icons/DesktopScreen";
 
 
 export const Navbar = () => {
@@ -33,7 +33,7 @@ export const Navbar = () => {
                 </div>
 
                 <div>
-                    <Button variant="purple_variant" endIcon={<EnterDoor />} onClick={() => { router.push("/dashboard") }} text="Dashboard" />
+                    <Button variant="purple_variant" endIcon={<DesktopScreen />} onClick={() => { router.push("/dashboard") }} text="Dashboard" />
                 </div>
             </div>
         </div>
